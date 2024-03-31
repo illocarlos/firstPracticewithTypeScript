@@ -1,6 +1,8 @@
-import type { Guitar } from '../types'
+// aqui llamamos ese archivo donde tenemos centralizado algunos tipado
 
-export const db : Guitar[] = [
+import type { Guitar } from '../types/types'
+
+export const db: Guitar[] = [
     {
         id: 1,
         name: 'Lukather',
@@ -85,4 +87,4 @@ export const db : Guitar[] = [
         description: 'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
         price: 379,
     },
-  ]
+]
